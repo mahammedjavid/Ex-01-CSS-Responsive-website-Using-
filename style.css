@@ -1,0 +1,473 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+font-family: 'Heebo', sans-serif;
+}
+a{
+    text-decoration: underline;
+    color: grey;
+}
+a:hover{
+    color: rgb(251, 251, 4);
+}
+.rightSign{
+    color: grey;
+}
+.firstA{
+    color: white;
+}
+
+header{
+    background-image: url(./Images/First.jpg);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.navbar{
+    display: grid;
+    grid-template-columns: 45px 100px auto;
+    padding: 20px;
+    margin-left: 5%;
+}
+.menu{
+    position: absolute;
+    right:4%;
+    background-color: gray;
+    border-radius: 100px;
+    padding: 10px;
+}
+.firstPageText{
+    padding: 50px;
+    margin-left: 5%;
+    width: 40%;
+    padding-top: 15%;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.imageGallery{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    width:90%;
+    position: relative;
+    left: 10%;
+    background-color: white;
+    top: -80px;
+    padding: 0px 10px;
+    box-shadow: -5px 10px 30px 2px grey;
+}
+h5{
+    color: rgb(90, 85, 85);
+}
+.section-02{
+    padding: 5% 10%;
+}
+.ReviewNameAndImage{
+    display: flex;
+    margin-top: 10%;
+}
+.section-02{
+    display: flex;
+}
+.SecondPageText{
+    width: 50%;
+}
+.firstReview{
+    width: 30%;
+    box-shadow: -5px 10px 30px 2px grey;
+    position: relative;
+    top: -200px;
+    left: 20%;
+    z-index: -1;
+    padding: 10% 2% 3% 2%;
+}
+hr{
+    background-color: grey;
+    margin: 3% 8%;
+}
+.FirstPart{
+    display: flex;
+    padding: 0 5%;
+}
+.FirstPart h1{
+    padding: 0 5% 5% 5%;
+}
+.FirstPart p {
+    padding: 0 5% 5% 5%;
+}
+.ImageAndQuoteOne{
+    display: flex;
+}
+.secondPart{
+    padding-top: 2%;
+}
+.ImageAndQuoteOne img{
+    height:400px;
+    width:600px;
+    padding:0% 6% 5% 0 ;
+}
+.ImageAndQuoteOne .Quote{
+    width: 40%;
+}
+.SecondReviewNameAndImage{
+    display: flex;
+    margin-top: 5%;
+}
+.SecondReviewNameAndImage .GoogleText{
+    padding-top: 2%;
+    padding-left: 5%;
+}
+
+.SecondReviewNameAndImage img{
+    padding: 1%;
+}
+.SecondReview{
+    background-color: white;
+    margin-top: 1%;
+    width: 30%;
+    box-shadow: -5px 10px 30px 2px grey;
+    position: relative;
+    top: -165px;
+    left: 10%;
+    z-index: 1;
+    border-radius: 10px;
+    padding: 2%;
+}
+.ImageAndQuoteTwo{
+    display: flex;
+}
+.ImageAndQuoteTwo img {
+    height: 400px;
+    width: 550px;
+    position: absolute;
+    right: 0;
+}
+
+.ImageAndQuoteTwo .Quote {
+    padding: 5%;
+    width: 50%;
+}
+.ThirdReview{
+    background-color: white;
+    margin-top: 1%;
+    width: 30%;
+    box-shadow: -5px 10px 30px 2px grey;
+    position: relative;
+    top: -120px;
+    left: 50%;
+    z-index: 1;
+    border-radius: 10px;
+    padding: 2%;
+}
+.section-06{
+    margin: 0 7%;
+}
+.section-06 h1{
+    padding: 4% 2%;
+    width: 40%;
+}
+.Boxes{
+    padding: 5%;
+    margin: 3% 5%;
+}
+.Boxes:hover{
+    box-shadow: -5px 10px 30px 2px grey;
+    scale: 1.01;
+}
+.gridBoxes{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+}
+.militaryBg{
+    background: #4E5B31;
+    width: 100%;
+}
+.first{
+    display: flex;
+    padding: 12% 3% 6% 3%;
+    color: white    ;
+}
+.first p{
+    color: #D1D1D1;
+}
+.phone{
+    padding: 0 9%;
+}
+
+.secondContainer{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    padding: 2% 8% 3% 8%;
+}
+.lastContainer{
+    padding: 2%;
+    margin: 4% 0;
+}
+.second{
+    padding: 1%;
+    color: white;
+}
+.second p{
+    color: #D1D1D1;
+}
+.lastContainer i{
+    margin: 1% 3%;
+    padding: 3%;
+    background-color: rgb(57, 49, 49);
+    border-radius: 60px;
+    color: #4E5B31  ;
+}
+.lastContainer i:hover{
+    background-color: yellow;
+    color: white;
+    transition: all 0.8s;
+}
+.section-07{
+    background-color: #E5E5E5;
+    width: 80%;
+    padding: 5%;
+    position: relative;
+    top: 100px;
+    font-size: 20px;
+}
+.section-07 h1{
+    width: 50%;
+}
+.logo{
+    display: flex;
+}
+.logoLabel{
+    color: white;
+}
+.footer{
+    display: flex;
+    padding: 1%;
+    color: white;
+}
+.copyright{
+    position: absolute;
+    right: 40px;
+    color: #D1D1D1;
+}
+.dot{
+    color: yellow;
+}
+
+
+
+
+
+@media (max-width:1457px){
+    .firstReview{
+        padding: 10% 0 0 2%;
+        width: 40%;
+    }
+    .ReviewNameAndImage{
+        font-size: large;
+    }
+}
+@media (max-width:1000px){
+    .firstPageText{
+        padding-top: 30%;
+        margin-left: 1%;
+        width: 60%;
+        font-size: 15px;
+    }
+    .firstPageText{
+        padding: 50px;
+        margin-left: 2%;
+        width: 40%;
+        padding-top: 10%;
+    }
+    .firstReview{
+        position: relative;
+        top: -200px;
+        left: 10%;
+        width: 50%;
+        padding: 25% 2% 3% 2%;
+    }
+    .SecondPageText{
+        width: 40%;
+    }
+    .section-02{
+        padding: 2% 5%;
+    }
+    .ImageAndQuoteOne img{
+        height:300px;
+        width:380px;
+        padding:0% 6% 5% 0 ;
+    }
+    .SecondReview{
+        width: 38%;
+        top: -120px;
+        left: 2%;
+    }
+    .ImageAndQuoteTwo img{
+        height: 40%;
+        width: 50%;
+    }
+    .section-07{
+        top: 70px;
+        font-size: medium;
+    }
+}
+@media (max-width:750px){
+    .ThirdReview{
+        width: 40%;
+    }
+    .SecondReview{
+        width: 40%;
+    }
+    .section-06{
+       margin: 0 1%;
+    }
+    .section-06 h1{
+       padding: 4% 2%;
+       width: 60%;
+    }
+    .Boxes{
+       padding: 3%;
+       margin: 1% 1%;
+   }
+   .firstPageText {
+    padding-top: 20%;
+       width: 60%;
+   }
+   .section-07 h1 {
+       width: 90%;
+   }
+}
+@media (max-width:580px){
+    .section-02{
+        flex-direction: column;
+    }
+    .SecondPageText{
+        width: 100%;
+    }
+    .firstReview{
+        position: relative;
+        top: 0;
+        left: 0;
+        width: 100%;
+        margin-top: 3%;
+        padding: 4%;
+    }
+    .ImageAndQuoteOne{
+        flex-direction: column;
+    }
+    .ImageAndQuoteOne img{
+        height:380px;
+        width:98%;
+        padding:2%;
+    }
+    .ImageAndQuoteOne .Quote{
+        padding: 2%;
+        width: 100%;
+    }
+    .SecondReview{
+        width: 95%;
+        top: 0;
+        left: 0;
+        padding: 5%;
+        margin: 2%;
+    }
+    .ImageAndQuoteTwo img {
+        margin: 1%;
+       height: 350px;
+       width: 95%;
+       position: static;
+    }
+    .ImageAndQuoteTwo .Quote{
+        width: 100%;
+    }
+    .ImageAndQuoteTwo{
+       flex-direction: column;
+    }
+    .ThirdReview{
+        width: 95%;
+        top: 0;
+        left: 0;
+        padding: 5%;
+        margin: 3%;
+    }
+    .section-06{
+       margin: 0 2%;
+    }
+    .section-06 h1{
+        padding: 5% 1%;
+        width: 80%;
+    }
+    .Boxes{
+        padding: 1%;
+        margin: 1% 1%;
+    }
+    .secondContainer{
+        padding: 1% 1% 1% 1%;
+    }
+    .lastContainer{
+        padding: 1%;
+        margin: 2% 1%;
+    }
+    .first{
+       padding: 3% 2%; 
+    }
+    .section-07 {
+        font-size: small;
+        width: 95%;
+        margin: 3% 1%;
+        top: 0;
+    }
+    .section-08{
+        font-size: small;
+    }
+
+}
+@media (max-width:515px){
+    .secondContainer{
+        display: block;
+    }
+    .lastContainer{
+        padding: 0%;
+        margin: 4% 0%;
+    }
+    .second{
+        margin: 1% 5%;
+        padding: 1% 3%;
+    }
+    .adress{
+        font-size: small;
+    }
+    .imageGallery{
+        width: 90%;
+        left: 4%;
+    }
+}
+@media (max-width:500px){
+    .firstPageText{
+        padding-top: 30%;    
+        width: 90%;
+        font-size: 15px;
+    }
+    .copyright{
+        position: static;
+        width: 100%;
+        text-align: center;
+    }
+    .footer{
+        flex-direction: column;
+    }
+    .logo{
+        align-self: center;
+    }
+
+}
+@media(max-width:400px){
+    .first{
+        padding-top: 10% 0;
+    }
+    .first, .second{
+        font-size: small;
+    }
+}
